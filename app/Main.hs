@@ -1,6 +1,8 @@
-module Main (main) where
+{-# LANGUAGE OverloadedStrings #-}
 
-import Lib
+import Web.Scotty
 
 main :: IO ()
-main = someFunc
+main = scotty 3000 $ do
+  get "/" $ do
+    text "Hello, HaskDocCraft!"

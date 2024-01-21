@@ -21,6 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/pedr
 
 dependencies:
 - base >= 4.7 && < 5
+- scotty >= 0.12
 
 ghc-options:
 - -Wall

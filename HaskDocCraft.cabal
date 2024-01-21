@@ -35,6 +35,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , scotty >=0.12
   default-language: Haskell2010
 
 executable HaskDocCraft-exe
@@ -49,6 +50,7 @@ executable HaskDocCraft-exe
   build-depends:
       HaskDocCraft
     , base >=4.7 && <5
+    , scotty >=0.12
   default-language: Haskell2010
 
 test-suite HaskDocCraft-test
@@ -64,4 +66,5 @@ test-suite HaskDocCraft-test
   build-depends:
       HaskDocCraft
     , base >=4.7 && <5
+    , scotty >=0.12
   default-language: Haskell2010
