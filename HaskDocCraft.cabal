@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      FileManipulation
       Lib
   other-modules:
       Paths_HaskDocCraft
